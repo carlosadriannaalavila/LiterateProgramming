@@ -45,7 +45,6 @@ after_script:
   - ls -al .ssh
   - eval "$(ssh-agent -s)"
   - ssh-add .ssh/id_rsa2
-  - 4V4l0n230988
   - ssh -T git@github.com
   - git checkout master
   - git config --global user.email "carlosnaalavila@gmail.com"
